@@ -1,0 +1,24 @@
+Options -Indexes
+RewriteEngine On
+
+# Redirect index.php to ./
+RewriteRule ^index\.php$ ./ [R=301,L]
+
+# Redirect /folder/index.php to /folder/
+RewriteRule ^(.*)/index\.php$ $1/ [R=301,L]
+
+# Ensure trailing slashes for directories
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond %{REQUEST_URI} !(.*)/$
+RewriteRule ^(.*)$ $1/ [L,R=301]
+
+# Caching headers for static assets
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresDefault "access plus 1 month"
+    ExpiresByType text/css "access plus 1 week"
+    ExpiresByType image/x-icon "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType image/png "access plus 1 month"
+    ExpiresByType image/gif "access plus 1 month"
+</IfModule>
