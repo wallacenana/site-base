@@ -95,6 +95,6 @@ if (!isset($base_path)) $base_path = "./";
     </script>
 
     <link rel="preload" as="image" href="<?php echo $base_path; ?>assets/hero-streaming.jpg">
-    <link rel="stylesheet" href="<?php echo $base_path; ?>assets/app.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="<?php echo $base_path; ?>assets/style_premium.css?v=<?php echo time(); ?>">
 </head>
 <body>

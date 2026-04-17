@@ -9,256 +9,180 @@ include_once 'includes/header.php';
 <main>
     <!-- HERO SECTION -->
     <section class="hero">
-        <div class="hero-bg">
-            <img src="./assets/hero-streaming.jpg" alt="Entretenimento StreamFlow" width="1920" height="1080">
-        </div>
-        <div class="hero-overlay"></div>
-        <div class="container hero-content">
-            <span class="badge">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
-                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                    class="lucide lucide-star fill-primary" aria-hidden="true">
-                    <path
-                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
-                    </path>
-                </svg> Entretenimento Premium
-            </span>
-            <h1>Mergulhe no universo StreamFlow</h1>
-            <p>Filmes, séries, esportes e canais ao vivo. Qualidade 4K em qualquer tela. Sua diversão começa aqui.</p>
+        <div class="hero::before"></div>
+        <div class="hero-content">
+            <div class="badge">✨ Entretenimento Premium em Qualidade 4K</div>
+            <h1>Mergulhe no Universo StreamFlow</h1>
+            <p class="hero-subtitle">Filmes, séries, esportes e canais ao vivo. Qualidade 4K em qualquer tela. Sua diversão começa aqui.</p>
             <div class="hero-actions">
-                <a href="./teste-gratis/" class="btn btn-primary">
-                    Experimente Grátis
-                </a>
-                <a href="./planos/" class="btn btn-outline">
-                    Ver Planos <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" class="lucide lucide-arrow-right" aria-hidden="true">
-                        <path d="M5 12h14"></path>
-                        <path d="m12 5 7 7-7 7"></path>
-                    </svg>
-                </a>
+                <a href="./teste-gratis/" class="btn btn-primary">Experimente Grátis por 24h</a>
+                <a href="./planos/" class="btn btn-outline">Ver Planos</a>
             </div>
             <div class="hero-stats">
-                <div class="stat-item">
-                    <span class="stat-value">24/7</span>
-                    <span class="stat-label">Suporte</span>
+                <div class="stat-box">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Suporte Especializado</div>
                 </div>
-                <div class="stat-item">
-                    <span class="stat-value">4K</span>
-                    <span class="stat-label">Resolução</span>
+                <div class="stat-box">
+                    <div class="stat-number">4K</div>
+                    <div class="stat-label">Ultra HD Nativo</div>
                 </div>
-                <div class="stat-item">
-                    <span class="stat-value">5+</span>
-                    <span class="stat-label">Dispositivos</span>
+                <div class="stat-box">
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">Dispositivos Simultâneos</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- HIGHLIGHTS -->
-    <section class="section service-highlights">
-        <div class="container highlights-container">
-            <span class="highlight-item">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
-                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                    class="text-primary">
-                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
-                    <path d="M16 3.128a4 4 0 0 1 0 7.744"></path>
-                    <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
-                    <circle cx="9" cy="7" r="4"></circle>
-                </svg>
-                Milhares de usuários satisfeitos
-            </span>
-            <span class="highlight-item">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
-                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                    class="text-primary fill-primary">
-                    <path
-                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
-                    </path>
-                </svg>
-                Avaliação 4.9/5 estrelas
-            </span>
-            <span class="highlight-item">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
-                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                    class="text-primary">
-                    <path
-                        d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
-                    </path>
-                </svg>
-                Conexão segura e estável
-            </span>
-        </div>
-    </section>
-
-    <!-- 1. COMO FUNCIONA -->
-    <section class="section container">
-        <div class="section-title">
-            <h2>Comece a Assistir em 4 Passos Simples</h2>
-            <p>Sua jornada de entretenimento começa aqui</p>
-        </div>
-        <div class="grid grid-4 text-center">
-            <div class="card">
-                <span class="card-num">01</span>
-                <h3>Escolha</h3>
-                <p>Selecione seu plano ideal ou inicie um teste grátis.</p>
-            </div>
-            <div class="card">
-                <span class="card-num">02</span>
-                <h3>Acesse</h3>
-                <p>Receba seus dados de login e instruções de instalação.</p>
-            </div>
-            <div class="card">
-                <span class="card-num">03</span>
-                <h3>Conecte</h3>
-                <p>Instale nosso app em seu dispositivo preferido.</p>
-            </div>
-            <div class="card">
-                <span class="card-num">04</span>
-                <h3>Assista</h3>
-                <p>Desfrute de um mundo de entretenimento instantaneamente.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- 2. FILMES E SÉRIES -->
-    <section class="section bg-surface">
-        <div class="container content-split">
-            <div class="content-text">
-                <h2 class="title-large">Uma Biblioteca Infinita de Histórias</h2>
-                <p class="description">Explore um catálogo em constante expansão com os maiores sucessos do cinema, séries aclamadas e documentários exclusivos. Tudo em HD, Full HD e 4K.</p>
-                <div class="grid grid-3 mini-stats">
-                    <div class="card mini-card">
-                        <div class="stat-value">20k+</div>
-                        <div class="stat-label">Filmes</div>
-                    </div>
-                    <div class="card mini-card">
-                        <div class="stat-value">7k+</div>
-                        <div class="stat-label">Séries</div>
-                    </div>
-                    <div class="card mini-card">
-                        <div class="stat-value">1.5k+</div>
-                        <div class="stat-label">Canais</div>
-                    </div>
-                </div>
-                <a href="./canais/" class="text-link">
-                    Explorar Catálogo →
-                </a>
-            </div>
-            <div class="content-image">
-                <img src="./assets/movies-grid.jpg" alt="Catálogo StreamFlow">
-            </div>
-        </div>
-    </section>
-
-    <!-- 3. ESPORTES AO VIVO -->
+    <!-- FEATURES SECTION -->
     <section class="section">
-        <div class="container content-split reverse">
-            <div class="content-text">
-                <h2 class="title-large">A Emoção do Esporte em Tempo Real</h2>
-                <p class="description">Não perca nenhum lance! Futebol, basquete, MMA, automobilismo e muito mais, com transmissões estáveis e sem atrasos.</p>
-                <a href="./planos/" class="btn btn-primary"
-                    style="display:inline-flex; align-items:center;">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                        style="margin-right:0.5rem;">
-                        <path d="m3 21 1.9-5.7a8.5 8.5 0 1 1 3.8 3.8z"></path>
-                    </svg>
-                    Assine Agora
-                </a>
-            </div>
-            <div class="content-image">
-                <img src="./assets/hero-streaming.jpg" alt="Esportes ao Vivo" style="filter: contrast(1.1);">
-            </div>
-        </div>
-    </section>
-
-    <!-- 4. POR QUE ESCOLHER -->
-    <section class="section container">
         <div class="section-title">
             <h2>Por Que Escolher StreamFlow?</h2>
-            <p>Qualidade, estabilidade e suporte que você merece</p>
+            <p class="section-subtitle">Experiência premium com tecnologia de ponta</p>
         </div>
         <div class="grid grid-3">
-            <!-- Estabilidade -->
-            <div class="card" style="display:flex; align-items:center; gap:1.25rem; text-align:left; padding:1.5rem;">
-                <div class="icon-box"
-                    style="flex-shrink:0; width:44px; height:44px; background:rgba(0, 191, 201, 0.1); border-radius:12px; display:flex; align-items:center; justify-content:center; color:var(--primary);">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path
-                            d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z">
-                        </path>
-                    </svg>
-                </div>
-                <div>
-                    <h3 style="font-size: 1rem; margin-bottom: 0.25rem;">Estabilidade Inigualável</h3>
-                    <p style="font-size: 0.8125rem; color: var(--muted-foreground); line-height: 1.4;">Servidores de alta performance garantem streaming sem interrupções.</p>
-                </div>
+            <div class="card">
+                <div class="card-icon">📺</div>
+                <h3>Catálogo Infinito</h3>
+                <p>Milhares de filmes, séries e canais ao vivo atualizados diariamente.</p>
             </div>
-            <!-- Segurança -->
-            <div class="card" style="display:flex; align-items:center; gap:1.25rem; text-align:left; padding:1.5rem;">
-                <div class="icon-box"
-                    style="flex-shrink:0; width:44px; height:44px; background:rgba(0, 191, 201, 0.1); border-radius:12px; display:flex; align-items:center; justify-content:center; color:var(--primary);">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path
-                            d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
-                        </path>
-                    </svg>
-                </div>
-                <div>
-                    <h3 style="font-size: 1rem; margin-bottom: 0.25rem;">Segurança Avançada</h3>
-                    <p style="font-size: 0.8125rem; color: var(--muted-foreground); line-height: 1.4;">Proteção de dados e privacidade em primeiro lugar.</p>
-                </div>
+            <div class="card">
+                <div class="card-icon">⚡</div>
+                <h3>Ultra Estável</h3>
+                <p>Transmissão sem travamentos com uptime garantido de 99.9%.</p>
             </div>
-            <!-- Suporte -->
-            <div class="card" style="display:flex; align-items:center; gap:1.25rem; text-align:left; padding:1.5rem;">
-                <div class="icon-box"
-                    style="flex-shrink:0; width:44px; height:44px; background:rgba(0, 191, 201, 0.1); border-radius:12px; display:flex; align-items:center; justify-content:center; color:var(--primary);">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-                    </svg>
-                </div>
-                <div>
-                    <h3 style="font-size: 1rem; margin-bottom: 0.25rem;">Suporte 24/7</h3>
-                    <p style="font-size: 0.8125rem; color: var(--muted-foreground); line-height: 1.4;">Nossa equipe está sempre pronta para ajudar, a qualquer hora.</p>
-                </div>
+            <div class="card">
+                <div class="card-icon">🔒</div>
+                <h3>100% Seguro</h3>
+                <p>Criptografia de ponta a ponta e privacidade garantida.</p>
             </div>
-            <!-- Compatibilidade -->
-            <div class="card" style="display:flex; align-items:center; gap:1.25rem; text-align:left; padding:1.5rem;">
-                <div class="icon-box"
-                    style="flex-shrink:0; width:44px; height:44px; background:rgba(0, 191, 201, 0.1); border-radius:12px; display:flex; align-items:center; justify-content:center; color:var(--primary);">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
-                        <line x1="2" y1="20" x2="22" y2="20"></line>
-                    </svg>
-                </div>
-                <div>
-                    <h3 style="font-size: 1rem; margin-bottom: 0.25rem;">Compatibilidade Total</h3>
-                    <p style="font-size: 0.8125rem; color: var(--muted-foreground); line-height: 1.4;">Assista em Smart TVs, celulares, tablets, PCs e TV Boxes.</p>
-                </div>
+            <div class="card">
+                <div class="card-icon">💰</div>
+                <h3>Preço Justo</h3>
+                <p>Planos acessíveis com melhor custo-benefício do mercado.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">📱</div>
+                <h3>Multi-Dispositivo</h3>
+                <p>Assista em Smart TV, smartphone, tablet ou computador.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">🎯</div>
+                <h3>Sem Fidelidade</h3>
+                <p>Cancele a qualquer momento, sem multas ou compromissos.</p>
             </div>
         </div>
     </section>
 
-    <!-- CTA FINAL -->
-    <section class="conversion-banner">
-        <div class="container text-center">
-            <h2>Pronto para Transformar Sua TV?</h2>
-            <p>Junte-se à família StreamFlow e descubra uma nova forma de assistir TV.</p>
-            <div class="conversion-actions">
-                <a href="./planos/" class="btn btn-primary">
-                    Assine Agora
-                </a>
-                <a href="./teste-gratis/" class="btn btn-outline">
-                    Experimente Grátis
-                </a>
+    <!-- COMO FUNCIONA -->
+    <section class="section" style="background: linear-gradient(135deg, rgba(106, 13, 173, 0.1) 0%, rgba(32, 201, 151, 0.1) 100%); border-radius: 20px; margin: 4rem 2rem;">
+        <div class="section-title">
+            <h2>Comece em 4 Passos Simples</h2>
+            <p class="section-subtitle">Sua jornada de entretenimento começa agora</p>
+        </div>
+        <div class="grid grid-4">
+            <div class="card">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">1️⃣</div>
+                <h3>Crie sua Conta</h3>
+                <p>Cadastro rápido em menos de 2 minutos com email ou WhatsApp.</p>
+            </div>
+            <div class="card">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">2️⃣</div>
+                <h3>Escolha seu Plano</h3>
+                <p>Selecione entre nossos planos flexíveis e acessíveis.</p>
+            </div>
+            <div class="card">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">3️⃣</div>
+                <h3>Instale o App</h3>
+                <p>Download gratuito para iOS, Android, Smart TV e mais.</p>
+            </div>
+            <div class="card">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">4️⃣</div>
+                <h3>Aproveite!</h3>
+                <p>Acesso imediato a todo o catálogo em qualidade 4K.</p>
             </div>
         </div>
     </section>
+
+    <!-- CTA SECTION -->
+    <section class="section">
+        <div class="cta-section">
+            <h2>Teste StreamFlow Gratuitamente</h2>
+            <p>Acesso completo por 24 horas. Sem cartão de crédito. Sem compromisso.</p>
+            <a href="./teste-gratis/" class="btn">Começar Teste Grátis</a>
+        </div>
+    </section>
+
+    <!-- PRICING PREVIEW -->
+    <section class="section">
+        <div class="section-title">
+            <h2>Planos que Cabem no Seu Bolso</h2>
+            <p class="section-subtitle">Escolha o plano perfeito para você</p>
+        </div>
+        <div class="pricing-cards">
+            <div class="pricing-card">
+                <div class="plan-name">Básico</div>
+                <div class="plan-price">R$ 29<span>/mês</span></div>
+                <p class="plan-description">Perfeito para começar</p>
+                <ul class="plan-features">
+                    <li>HD até 1080p</li>
+                    <li>1 dispositivo simultâneo</li>
+                    <li>Catálogo completo</li>
+                </ul>
+                <a href="./planos/" class="btn btn-secondary" style="width: 100%;">Escolher Plano</a>
+            </div>
+            <div class="pricing-card featured">
+                <div class="pricing-badge">Mais Popular</div>
+                <div class="plan-name">Premium</div>
+                <div class="plan-price">R$ 59<span>/mês</span></div>
+                <p class="plan-description">Melhor custo-benefício</p>
+                <ul class="plan-features">
+                    <li>4K Ultra HD</li>
+                    <li>4 dispositivos simultâneos</li>
+                    <li>Suporte prioritário</li>
+                </ul>
+                <a href="./planos/" class="btn btn-primary" style="width: 100%;">Escolher Plano</a>
+            </div>
+            <div class="pricing-card">
+                <div class="plan-name">Família</div>
+                <div class="plan-price">R$ 89<span>/mês</span></div>
+                <p class="plan-description">Para toda a família</p>
+                <ul class="plan-features">
+                    <li>4K Ultra HD</li>
+                    <li>6 dispositivos simultâneos</li>
+                    <li>Suporte VIP 24/7</li>
+                </ul>
+                <a href="./planos/" class="btn btn-secondary" style="width: 100%;">Escolher Plano</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ PREVIEW -->
+    <section class="section">
+        <div class="section-title">
+            <h2>Perguntas Frequentes</h2>
+            <p class="section-subtitle">Tire suas dúvidas sobre StreamFlow</p>
+        </div>
+        <div style="max-width: 800px; margin: 0 auto;">
+            <div class="card" style="margin-bottom: 1rem;">
+                <h3 style="margin-bottom: 0.5rem;">O que é StreamFlow?</h3>
+                <p style="margin-bottom: 0;">StreamFlow é uma plataforma de streaming que oferece acesso a milhares de canais de TV, filmes e séries sob demanda via internet.</p>
+            </div>
+            <div class="card" style="margin-bottom: 1rem;">
+                <h3 style="margin-bottom: 0.5rem;">Como funciona o teste grátis?</h3>
+                <p style="margin-bottom: 0;">Teste grátis é um período de avaliação de 24 horas. Você tem acesso total a todo o catálogo sem nenhum compromisso.</p>
+            </div>
+            <div class="card">
+                <h3 style="margin-bottom: 0.5rem;">Posso cancelar a qualquer momento?</h3>
+                <p style="margin-bottom: 0;">Sim, sem fidelidade ou multas. Seu plano expira ao final do período contratado.</p>
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 2rem;">
+            <a href="./faq/" class="btn btn-primary">Ver Todas as Perguntas</a>
+        </div>
+    </section>
+
 </main>
+
 <?php include_once 'includes/footer.php'; ?>
