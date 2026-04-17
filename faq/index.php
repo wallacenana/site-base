@@ -1,69 +1,61 @@
 <?php
-$page_title = "FAQ - Bla Bla IPTV";
+$page_title = "FAQ - StreamFlow";
 $page_badge = "Perguntas Frequentes";
-$header_title = "Tudo Sobre <span class='text-primary'>IPTV</span>";
-$page_subtitle = "Tire suas dúvidas sobre IPTV, planos, teste grátis, instalação e qualidade do nosso serviço.";
+$header_title = "Tudo Sobre <span class=\'text-primary\'>StreamFlow</span>";
+$page_subtitle = "Tire suas dúvidas sobre StreamFlow, planos, teste grátis, instalação e qualidade do nosso serviço.";
 $base_path = "../";
-include_once '../includes/cache.php';
-include_once '../includes/head.php';
-include_once '../includes/header.php';
-include_once '../includes/breadcrumbs.php';
+include_once \'../includes/cache.php\';
+include_once \'../includes/head.php\';
+include_once \'../includes/header.php\';
+include_once \'../includes/breadcrumbs.php\';
 ?>
 
+<script type="application/ld+json">
+<?php include_once \'../faq_json_ld.json\'; ?>
+</script>
+
 <main>
-    <!-- SOBRE IPTV -->
+    <!-- SOBRE STREAMFLOW -->
     <section class="section">
         <div class="container faq-page-wrapper">
-            <h2 class="faq-category-title">Sobre IPTV</h2>
+            <h2 class="faq-category-title">Sobre StreamFlow</h2>
             <div class="faq-container">
                 <div class="faq-item active">
-                    <button class="faq-trigger">O que é IPTV? <span class="faq-icon">▼</span></button>
-                    <div class="faq-panel">IPTV (Internet Protocol Television) é uma tecnologia que permite assistir TV
-                        pela internet. Diferente da TV a cabo tradicional, o IPTV transmite o conteúdo via protocolo de
-                        internet, possibilitando acesso a milhares de canais ao vivo, filmes e séries sob demanda. Com
-                        Bla Bla IPTV, você assiste de qualquer lugar com qualidade Full HD e 4K, é a forma mais moderna,
-                        acessível e econômica de assistir TV online.</div>
+                    <button class="faq-trigger">O que é StreamFlow? <span class="faq-icon">▼</span></button>
+                    <div class="faq-panel">StreamFlow é uma plataforma de streaming que oferece acesso a milhares de canais de TV, filmes e séries sob demanda via internet. É a evolução da TV tradicional, com mais conteúdo, flexibilidade e qualidade.</div>
                 </div>
                 <div class="faq-item">
-                    <button class="faq-trigger">Como funciona o IPTV? <span class="faq-icon">▼</span></button>
-                    <div class="faq-panel">O IPTV funciona através de servidores que transmitem o sinal de TV pela
-                        internet. Você recebe um login e senha, instala um aplicativo no seu dispositivo (Smart TV,
-                        celular, TV Box, etc.) e pronto — acesso a milhares de canais, filmes e séries.</div>
+                    <button class="faq-trigger">Como funciona o StreamFlow? <span class="faq-icon">▼</span></button>
+                    <div class="faq-panel">Após a assinatura, você recebe credenciais de acesso para usar em nosso aplicativo ou em players compatíveis. Basta instalar em seu dispositivo e começar a assistir.</div>
                 </div>
                 <div class="faq-item">
-                    <button class="faq-trigger">IPTV é melhor que TV a cabo? <span class="faq-icon">▼</span></button>
-                    <div class="faq-panel">Sim! Com IPTV você tem acesso a muito mais conteúdo por um preço muito menor.
-                        Além disso, pode assistir de qualquer dispositivo. A TV a cabo limita você a um aparelho e cobra
-                        altos valores mensais por poucos canais.</div>
+                    <button class="faq-trigger">StreamFlow é melhor que TV a cabo? <span class="faq-icon">▼</span></button>
+                    <div class="faq-panel">Sim! StreamFlow oferece uma variedade muito maior de conteúdo por um custo significativamente menor, além da liberdade de assistir em múltiplos dispositivos e de qualquer lugar com internet.</div>
                 </div>
                 <div class="faq-item">
-                    <button class="faq-trigger">Qual internet mínima necessária para IPTV? <span
+                    <button class="faq-trigger">Qual a velocidade de internet recomendada? <span
                             class="faq-icon">▼</span></button>
-                    <div class="faq-panel">Recomendamos no mínimo 15Mbps para canais em HD e 25Mbps para 4K. Conexões
-                        via cabo de rede oferecem maior estabilidade que Wi-Fi, mas ambos funcionam perfeitamente.</div>
+                    <div class="faq-panel">Recomendamos no mínimo 20Mbps para conteúdo HD e 35Mbps para 4K, garantindo uma experiência sem travamentos. Conexões via cabo são ideais para maior estabilidade.</div>
                 </div>
             </div>
 
             <!-- TESTE GRÁTIS -->
-            <h2 class="faq-category-title">Teste IPTV Grátis</h2>
+            <h2 class="faq-category-title">Teste Grátis</h2>
             <div class="faq-container">
                 <div class="faq-item">
-                    <button class="faq-trigger">Como solicitar o teste IPTV grátis? <span
+                    <button class="faq-trigger">Como posso experimentar o StreamFlow gratuitamente? <span
                             class="faq-icon">▼</span></button>
-                    <div class="faq-panel">Basta clicar no botão "Teste Grátis" ou nos chamar no WhatsApp. Nossa equipe
-                        libera seu acesso em poucos minutos para que você teste por 6 horas gratuitamente.</div>
+                    <div class="faq-panel">Clique no botão "Experimente Grátis" em nosso site ou entre em contato via WhatsApp. Liberamos seu acesso para um teste completo de 24 horas, sem compromisso.</div>
                 </div>
                 <div class="faq-item">
-                    <button class="faq-trigger">O teste IPTV é realmente grátis? Preciso dar cartão? <span
+                    <button class="faq-trigger">O teste grátis exige cartão de crédito? <span
                             class="faq-icon">▼</span></button>
-                    <div class="faq-panel">Sim, é 100% grátis. Não pedimos cartão de crédito, dados bancários ou
-                        qualquer forma de pagamento. Você testa sem compromisso e só assina se gostar.</div>
+                    <div class="faq-panel">Não! Nosso teste é 100% gratuito e não solicitamos nenhum dado de pagamento. Você testa e só decide assinar se estiver totalmente satisfeito.</div>
                 </div>
                 <div class="faq-item">
-                    <button class="faq-trigger">O que está incluso no teste IPTV? <span
+                    <button class="faq-trigger">O que está incluído no teste gratuito? <span
                             class="faq-icon">▼</span></button>
-                    <div class="faq-panel">Tudo! Durante as 6 horas de teste você tem acesso completo: +18.000 canais ao
-                        vivo, +65.000 filmes e séries, qualidade Full HD e 4K, EPG e todas as funcionalidades.</div>
+                    <div class="faq-panel">Durante o teste, você tem acesso total a todo o nosso catálogo: canais ao vivo, filmes, séries, e todas as funcionalidades premium, em qualidade Full HD e 4K.</div>
                 </div>
             </div>
 
@@ -71,58 +63,48 @@ include_once '../includes/breadcrumbs.php';
             <h2 class="faq-category-title">Planos e Pagamento</h2>
             <div class="faq-container">
                 <div class="faq-item">
-                    <button class="faq-trigger">Quanto custa o IPTV? <span class="faq-icon">▼</span></button>
-                    <div class="faq-panel">Nossos planos começam a partir de R$ 25,00/mês. Temos opções mensais,
-                        trimestrais, semestrais e anuais com descontos progressivos. O plano anual é o mais econômico.
-                    </div>
+                    <button class="faq-trigger">Quais são os planos do StreamFlow? <span class="faq-icon">▼</span></button>
+                    <div class="faq-panel">Oferecemos planos mensais, trimestrais, semestrais e anuais, com descontos progressivos. Nossos preços são competitivos e se ajustam à sua necessidade.</div>
                 </div>
                 <div class="faq-item">
-                    <button class="faq-trigger">Quais formas de pagamento são aceitas? <span
+                    <button class="faq-trigger">Quais métodos de pagamento são aceitos? <span
                             class="faq-icon">▼</span></button>
-                    <div class="faq-panel">Aceitamos PIX, cartão de crédito, cartão de débito e boleto bancário. O PIX é
-                        a forma mais rápida com liberação imediata do acesso.</div>
+                    <div class="faq-panel">Aceitamos PIX, cartões de crédito e débito, e boleto bancário. O PIX garante liberação imediata do serviço.</div>
                 </div>
                 <div class="faq-item">
                     <button class="faq-trigger">Posso cancelar a qualquer momento? <span
                             class="faq-icon">▼</span></button>
-                    <div class="faq-panel">Sim! Não há fidelidade nem multa de cancelamento. Seu plano simplesmente
-                        expira ao final do período contratado e não renova automaticamente.</div>
+                    <div class="faq-panel">Sim, sem fidelidade ou multas. Seu plano expira ao final do período contratado e não há renovação automática, dando-lhe total controle.</div>
                 </div>
                 <div class="faq-item">
-                    <button class="faq-trigger">Posso usar em mais de um dispositivo? <span
+                    <button class="faq-trigger">É possível assistir em vários dispositivos simultaneamente? <span
                             class="faq-icon">▼</span></button>
-                    <div class="faq-panel">Sim! Todos os nossos planos permitem múltiplas telas simultâneas. Você pode
-                        assistir na TV da sala, no celular e no tablet ao mesmo tempo.</div>
+                    <div class="faq-panel">Absolutamente! Todos os nossos planos incluem a opção de múltiplas telas simultâneas, para que toda a família possa assistir o que quiser, onde quiser.</div>
                 </div>
             </div>
 
-            <!-- TÉCNICO / INSTALAÇÃO -->
-            <h2 class="faq-category-title">Técnico / Instalação</h2>
+            <!-- SUPORTE E INSTALAÇÃO -->
+            <h2 class="faq-category-title">Suporte e Instalação</h2>
             <div class="faq-container">
                 <div class="faq-item">
-                    <button class="faq-trigger">Em quais dispositivos o IPTV funciona? <span
+                    <button class="faq-trigger">Em quais dispositivos o StreamFlow é compatível? <span
                             class="faq-icon">▼</span></button>
-                    <div class="faq-panel">Funciona em Smart TVs (Samsung, LG, Android TV), celulares e tablets
-                        (Android e iOS), computadores (Windows, Mac, Linux), TV Box, Fire Stick, Roku e muito mais.
-                    </div>
+                    <div class="faq-panel">StreamFlow funciona em Smart TVs (Samsung, LG, Android TV), smartphones e tablets (Android e iOS), computadores, TV Boxes, Fire Sticks e Roku.</div>
                 </div>
                 <div class="faq-item">
-                    <button class="faq-trigger">Qual aplicativo usar para assistir IPTV? <span
+                    <button class="faq-trigger">Qual aplicativo devo usar para assistir? <span
                             class="faq-icon">▼</span></button>
-                    <div class="faq-panel">Recomendamos IPTV Smarters Pro, TiviMate, Duplex IPTV ou XCIPTV Player.
-                        Nossa equipe te ajuda a instalar e configurar o melhor app para o seu dispositivo.</div>
+                    <div class="faq-panel">Recomendamos nosso aplicativo oficial StreamFlow, disponível nas lojas de aplicativos. Nossa equipe de suporte pode auxiliar na instalação e configuração.</div>
                 </div>
                 <div class="faq-item">
-                    <button class="faq-trigger">O IPTV trava? E se tiver problemas? <span
+                    <button class="faq-trigger">O serviço StreamFlow apresenta travamentos? <span
                             class="faq-icon">▼</span></button>
-                    <div class="faq-panel">Nossos servidores são de alta performance e raramente apresentam
-                        instabilidade. Se tiver qualquer problema, nosso suporte 24h resolve rapidamente.</div>
+                    <div class="faq-panel">Nossos servidores são otimizados para alta performance e estabilidade. Em caso de qualquer problema, nosso suporte 24/7 está pronto para resolver rapidamente.</div>
                 </div>
                 <div class="faq-item">
-                    <button class="faq-trigger">Vocês ajudam a instalar e configurar? <span
+                    <button class="faq-trigger">Vocês oferecem suporte para instalação e configuração? <span
                             class="faq-icon">▼</span></button>
-                    <div class="faq-panel">Sim! Oferecemos suporte completo por WhatsApp com tutorial passo a passo.
-                        Nossa equipe configura remotamente se necessário.</div>
+                    <div class="faq-panel">Sim! Oferecemos suporte completo via WhatsApp, com guias passo a passo e, se necessário, assistência remota para garantir que você comece a assistir sem dificuldades.</div>
                 </div>
             </div>
 
@@ -130,57 +112,47 @@ include_once '../includes/breadcrumbs.php';
             <h2 class="faq-category-title">Conteúdo e Qualidade</h2>
             <div class="faq-container">
                 <div class="faq-item">
-                    <button class="faq-trigger">O IPTV tem canais em 4K? <span class="faq-icon">▼</span></button>
-                    <div class="faq-panel">Sim! Oferecemos canais em SD, HD, Full HD e 4K. A qualidade depende da sua
-                        velocidade de internet e do canal selecionado.</div>
+                    <button class="faq-trigger">O StreamFlow possui conteúdo em 4K? <span class="faq-icon">▼</span></button>
+                    <div class="faq-panel">Sim! Dispomos de uma vasta seleção de conteúdo em SD, HD, Full HD e 4K, para uma experiência visual imersiva. A qualidade final pode variar conforme sua conexão.</div>
                 </div>
                 <div class="faq-item">
-                    <button class="faq-trigger">O acervo de filmes é atualizado? <span
+                    <button class="faq-trigger">Com que frequência o catálogo é atualizado? <span
                             class="faq-icon">▼</span></button>
-                    <div class="faq-panel">Sim! Nosso catálogo é atualizado diariamente com os últimos lançamentos do
-                        cinema e das plataformas de streaming. São mais de 65.000 títulos disponíveis.</div>
+                    <div class="faq-panel">Nosso catálogo é atualizado diariamente com os lançamentos mais recentes de filmes e séries, além de novos canais, garantindo sempre novidades para você.</div>
                 </div>
                 <div class="faq-item">
-                    <button class="faq-trigger">Tem conteúdo infantil seguro? <span class="faq-icon">▼</span></button>
-                    <div class="faq-panel">Sim! Contamos com canais infantis dedicados como Discovery Kids, Cartoon
-                        Network, Disney Channel e muito mais, além de filmes e séries infantis no catálogo VOD.</div>
+                    <button class="faq-trigger">Há conteúdo seguro para crianças? <span class="faq-icon">▼</span></button>
+                    <div class="faq-panel">Sim! Oferecemos uma seção dedicada com canais infantis populares e uma vasta biblioteca de filmes e séries para todas as idades, com controle parental opcional.</div>
                 </div>
                 <div class="faq-item">
-                    <button class="faq-trigger">Tem canais de esportes ao vivo? <span class="faq-icon">▼</span></button>
-                    <div class="faq-panel">Sim! Temos Premiere, Combate, ESPN, Fox Sports, DAZN, Band Sports e
-                        todos os principais canais esportivos com transmissão ao vivo sem atraso.</div>
+                    <button class="faq-trigger">Posso assistir esportes ao vivo? <span class="faq-icon">▼</span></button>
+                    <div class="faq-panel">Com certeza! Temos todos os principais canais esportivos, incluindo futebol, basquete, lutas e muito mais, com transmissões ao vivo e sem atrasos.</div>
                 </div>
                 <div class="faq-item">
-                    <button class="faq-trigger">Posso assistir reprises de programas? <span
+                    <button class="faq-trigger">É possível rever programas que já foram exibidos? <span
                             class="faq-icon">▼</span></button>
-                    <div class="faq-panel">Sim! Além dos canais ao vivo, oferecemos função Catch-Up (quando disponível)
-                        e todo o catálogo de filmes e séries sob demanda para assistir quando quiser.</div>
+                    <div class="faq-panel">Sim! Além da programação ao vivo, muitos canais oferecem a função Catch-Up para rever conteúdos. Nosso VOD também permite assistir filmes e séries a qualquer momento.</div>
                 </div>
             </div>
 
             <!-- SEGURANÇA E CONFIANÇA -->
-            <h2 class="faq-category-title">Segurança e Confiança</h2>
+            <h2 class="faq-category-title">Segurança e Confiabilidade</h2>
             <div class="faq-container">
                 <div class="faq-item">
-                    <button class="faq-trigger">Meus dados estão seguros? <span class="faq-icon">▼</span></button>
-                    <div class="faq-panel">Sim! Não armazenamos dados sensíveis. Os pagamentos são processados por
-                        plataformas seguras e criptografadas. Seus dados pessoais são tratados com total sigilo.</div>
+                    <button class="faq-trigger">Meus dados pessoais estão seguros com StreamFlow? <span class="faq-icon">▼</span></button>
+                    <div class="faq-panel">Sua privacidade é nossa prioridade. Não armazenamos dados sensíveis e todas as transações são processadas por plataformas seguras e criptografadas, garantindo total sigilo.</div>
                 </div>
                 <div class="faq-item">
-                    <button class="faq-trigger">Vocês oferecem garantia? <span class="faq-icon">▼</span></button>
-                    <div class="faq-panel">Sim! Oferecemos garantia de satisfação. Se não ficar satisfeito nos primeiros
-                        7 dias, devolvemos seu dinheiro. Além disso, o teste grátis permite que você avalie antes de
-                        comprar.</div>
+                    <button class="faq-trigger">O StreamFlow oferece alguma garantia? <span class="faq-icon">▼</span></button>
+                    <div class="faq-panel">Sim! Oferecemos uma garantia de satisfação de 7 dias. Se não estiver satisfeito, garantimos seu dinheiro de volta. Nosso teste grátis também permite que você avalie o serviço antes de qualquer compromisso.</div>
                 </div>
                 <div class="faq-item">
-                    <button class="faq-trigger">Já são quantos clientes? <span class="faq-icon">▼</span></button>
-                    <div class="faq-panel">Atendemos milhares de clientes ativos em todo o Brasil com nota média de
-                        4.9/5 em avaliação. Nosso crescimento é baseado em indicações de clientes satisfeitos.</div>
+                    <button class="faq-trigger">Quantos clientes o StreamFlow já atende? <span class="faq-icon">▼</span></button>
+                    <div class="faq-panel">Temos milhares de clientes satisfeitos em todo o país, com uma reputação sólida e avaliações positivas que refletem a qualidade e confiabilidade do nosso serviço.</div>
                 </div>
                 <div class="faq-item">
-                    <button class="faq-trigger">O serviço é estável? <span class="faq-icon">▼</span></button>
-                    <div class="faq-panel">Sim! Utilizamos servidores dedicados de alta performance com redundância.
-                        Nosso uptime é superior a 99.5% e temos equipe técnica monitorando 24 horas.</div>
+                    <button class="faq-trigger">A estabilidade do serviço é garantida? <span class="faq-icon">▼</span></button>
+                    <div class="faq-panel">Garantimos alta estabilidade com servidores dedicados e monitoramento 24 horas por dia, 7 dias por semana. Nosso uptime é consistentemente superior a 99.9%.</div>
                 </div>
             </div>
         </div>
@@ -189,21 +161,17 @@ include_once '../includes/breadcrumbs.php';
     <!-- CTA FINAL -->
     <section class="conversion-banner">
         <div class="container text-center">
-            <h2>Ainda tem dúvidas?</h2>
-            <p>Fale com nossa equipe pelo WhatsApp. Atendemos em minutos.</p>
+            <h2>Pronto para transformar sua TV?</h2>
+            <p>Junte-se à família StreamFlow e descubra uma nova forma de assistir TV.</p>
             <div class="conversion-actions">
-                <a href="https://blablachampanheria.com.br/whatsapp" target="_blank" class="btn btn-dark">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="m3 21 1.9-5.7a8.5 8.5 0 1 1 3.8 3.8z"></path>
-                    </svg>
-                    Falar no WhatsApp
+                <a href="../planos/" class="btn btn-dark">
+                    Assine Agora
                 </a>
                 <a href="../teste-gratis/" class="btn btn-outline btn-outline-dark">
-                    Teste IPTV Grátis
+                    Experimente Grátis
                 </a>
             </div>
         </div>
     </section>
 </main>
-<?php include_once '../includes/footer.php'; ?>
+<?php include_once \'../includes/footer.php\'; ?>

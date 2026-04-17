@@ -7,13 +7,13 @@ if ($base_path === "./")
 ?>
 <header class="main-header">
     <div class="top-bar">
-        🔥 OFERTA LIMITADA: <strong>30% OFF</strong> em todos os planos IPTV — Vagas se esgotando!
+        🎬 OFERTA ESPECIAL: Primeiro mês com <strong>50% OFF</strong> em todos os planos StreamFlow — Aproveite!
     </div>
     <nav class="container nav-container">
         <a class="logo" href="<?php echo $base_path; ?>">
-            <img src="<?php echo $base_path; ?>assets/img/logo.png" alt="Bla Bla IPTV"
+            <img src="<?php echo $base_path; ?>assets/img/logo.png" alt="StreamFlow"
                 style="height: 28px; width: auto; margin-right: 8px;">
-            <span>Bla Bla <span class="text-primary">IPTV</span></span>
+            <span>Stream<span class="text-primary">Flow</span></span>
         </a>
         <div class="nav-links">
             <a class="nav-link <?php echo ($active_page === 'home') ? 'active' : ''; ?>"
@@ -30,8 +30,7 @@ if ($base_path === "./")
                 href="<?php echo $base_path; ?>faq/">FAQ</a>
         </div>
         <div class="nav-actions">
-            <a href="https://blablachampanheria.com.br/whatsapp" target="_blank" rel="noopener noreferrer"
-                class="btn btn-primary btn-header hide-mobile">
+            <a href="./planos/" class="btn btn-primary btn-header hide-mobile">
                 Assine Agora
             </a>
             <button class="menu-toggle" aria-label="Abrir menu">
